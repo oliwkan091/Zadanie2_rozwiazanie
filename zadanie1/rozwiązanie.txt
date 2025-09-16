@@ -1,0 +1,9 @@
+Format flagi jest następujący: FLAG{FRAGMENT_A-FRAGMENT_B-FRAGMENT_C}
+Gdzie:
+FRAGMENT_A : Identyfikator zmiany, która zapoczątkowała incydent.
+FRAGMENT_B : Prawidłowa wartość portu, na którym kontener powinien nasłuchiwać, a która została błędnie zdefiniowana w konfiguracji sieciowej.
+FRAGMENT_C : Sekretna wartość, która powinna zostać wygenerowana przez skrypt startowy, gdyby nie napotkał na problemy.
+
+
+
+FLAG{5e8f1a2-25600-0x100_problems_but_a_port_aint_one}
